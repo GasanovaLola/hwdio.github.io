@@ -1,3 +1,29 @@
+function Check(params) {
+    if (!localStorage.getItem(`row0`)) {
+        localStorage.setItem(`row0`, 100);
+    }
+    if (!localStorage.getItem(`row1`)) {
+        localStorage.setItem(`row1`, 100);
+    }
+    if (!localStorage.getItem(`row2`)) {
+        localStorage.setItem(`row2`, 100);
+    }
+    if (!localStorage.getItem(`row3`)) {
+        localStorage.setItem(`row3`, 100);
+    }
+    if (!localStorage.getItem(`row4`)) {
+        localStorage.setItem(`row4`, 100);
+    }
+    if (!localStorage.getItem(`row5`)) {
+        localStorage.setItem(`row5`, 100);
+    }
+    if (!localStorage.getItem(`row6`)) {
+        localStorage.setItem(`row6`, 100);
+    }
+}
+
+Check();
+
 Vue.component('diagrams', {
     data: () => ({
                 items: [
